@@ -1,4 +1,5 @@
 "use strict";
+let stringUppercase = require("./jwTitleCase");
 
 function displayTypes (type){
     console.log("Types: ", type);
@@ -6,10 +7,11 @@ function displayTypes (type){
     type.forEach(type => {
         areaDiv.innerHTML += 
         `<div class="type${type.id}">
-            <h2>${type.name}</h2>
+        <h2>${stringUppercase(type.name)}</h2>
         </div>`;
     });
 };
+
 
 module.exports = displayTypes;
 
