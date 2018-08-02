@@ -9,3 +9,21 @@ div.container-fluid {
     padding: 0;
     margin: 0;
 }
+
+/* style welcome area here */
+div.welcomeCard {
+    text-align: center;
+    background-color: skyblue;
+    padding: 1em;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+div.welcomeCard p {
+    margin: 0;
+}
+
+div.welcomeCard h1 {
+    text-shadow: 1px 1px #fff;
+    font-family: verdana;
+    font-size: 5em;
+}

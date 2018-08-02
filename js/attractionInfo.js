@@ -18,9 +18,8 @@ db.fetchAttractions()
 //    console.log("logging strBuild");
 //    console.log(strBuild);
 //    writeToDom(strBuild);
-result.forEach(element => {
-    let attractionComponent = createAttraction(element.description, element.name);
-    writeToDom(attractionComponent);
-
-});
+    result.forEach(element => {
+        let attractionComponent = createAttraction(element.description, element.name);
+        writeToDom(attractionComponent);
+    });
 });
