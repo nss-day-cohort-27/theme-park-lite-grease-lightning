@@ -1,0 +1,24 @@
+/* requires bootstrap for this project */
+div #ncb-background {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/ncbDisney.jpg");
+    /* background-repeat: no-repeat; */
+}
+
+div #ncb-attractions {
+    margin: 0;
+    padding: 2em;
+}
+
+div #ncb-attractions div {
+    padding: 1em;
+    /* border-bottom: 1px solid black; */
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+div #ncb-attractions div h1 {
+    text-shadow: 1px 1px #fff;
+}
