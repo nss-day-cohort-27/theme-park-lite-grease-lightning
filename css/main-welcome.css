@@ -12,10 +12,14 @@ div.container-fluid {
 
 /* style welcome area here */
 div.welcomeCard {
+    text-align: center;
     background-color: skyblue;
-    padding: 1.5em;
+    padding: 1em;
     border: 1px solid black;
     border-bottom: 0px;
+}
+div.welcomeCard p {
+    margin: 0;
 }
 
 div.welcomeCard h1 {
