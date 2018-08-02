@@ -24,7 +24,4 @@ db.fetchParkInfo()
        }
        
     });
-
-    let parkInfoComponent = parkComponent(descr, loc, name, closing, opening);
-    parkInfoDom(parkInfoComponent);
 });
