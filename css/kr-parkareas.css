@@ -1,43 +1,90 @@
+#kr-park-areas {
+    background: url(http://www.wdwinfo.com/resortmaps/propertymap2.JPG) no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+#kr-park-areas div {
+    padding: 1em;
+    width: 45%;
+    border-radius: 10px;
+    height: 500px;
+
+}
+
+
 .type1 {
-    background-color: #730217;
+    background-color: #730217bb;
     padding: .5em;
     margin-bottom: 1em;
 
 }
 
 .type2 {
-    background-color: #D15530;
+    background-color: rgba(209, 86, 48, 0.801);
     padding: .5em;
     margin-bottom: 1em;
 
 }
 .type3 {
-    background-color: #A37849;
+    background-color: rgba(163, 119, 73, 0.801);
     padding: .5em;
     margin-bottom: 1em;
 
 }
 .type4 {
-    background-color: #2594D9;
+    background-color: rgba(37, 148, 217, 0.801);
     padding: .5em;
     margin-bottom: 1em;
 
 }
 .type5 {
-    background-color: #E73C81;
+    background-color: rgba(231, 60, 128, 0.801);
     padding: .5em;
     margin-bottom: 1em;
 
 }
 .type6 {
-    background-color: #3E4D8C;
+    background-color: rgba(62, 78, 140, 0.801);
     padding: .5em;
     margin-bottom: 1em;
 
 }
 .type7 {    
-    background-color: #F2CF53;
+    background-color: rgba(242, 208, 83, 0.801);
     padding: .5em;
-    margin-bottom: 1em;
+    height: 300px;
+    margin-bottom: 1.5em;
 
+}
+#kr-park-areas h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+#kr-park-areas p {
+    background: radial-gradient(circle, rgba(54, 54, 54, 0.199), rgb(54, 54, 54));
+    color: white;
+    text-shadow: black .5px .5px;
+    padding: .3em;
+    border-radius: 5px;
+    height: 85%;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
