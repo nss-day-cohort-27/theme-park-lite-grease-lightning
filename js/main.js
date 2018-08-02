@@ -1,7 +1,9 @@
 "use strict";
 
-// let welcome = require("./parkInfo.js");
-let attraction = require("./attractionInfo.js");
-// let parkInfo = require("./parkInfo.js");
+console.log("Dope");
 
-// This is here to get you started. You may remove or move as necessary.
+let parkInfo = require('./parkInfo.js');
+let areasInfo = require('./kr-areas.js');
+let attraction = require("./attractionInfo.js");
+
+
