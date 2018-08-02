@@ -9,12 +9,8 @@ let attractionTypes = {};
 db.fetchTypes()
    .then((result) => {
    attractionTypes = result;
+   
    displayTypes(attractionTypes);
-});
-
+}); 
 
 module.exports = attractionTypes;
-
-
-
-
