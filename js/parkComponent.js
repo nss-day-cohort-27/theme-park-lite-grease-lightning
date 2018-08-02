@@ -7,8 +7,8 @@ function parkComponent(description, location, name, closing, opening) {
     return `<h1>${name}</h1>
     <p>${description}</p>
     <p>${location}</p>
-    <p>${closing}</p>
-    <p>${opening}</p>`;
+    <p>Opens at: ${opening} am</p>
+    <p>Closes at: ${closing} pm</p>`;
 }
 
 

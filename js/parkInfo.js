@@ -16,12 +16,12 @@ db.fetchParkInfo()
        descr = element.description;
        loc = element.location;
        name = element.name;
-       if (element === "operating_hours") {
-         element.forEach(element => {
-            closing = element.closing;
-            opening = element.opening;
-         });
-       }
+       //console.log("checking if element is operating hours");
+       opening = element.operating_hours[0].closing;
+       closing = element.operating_hours[0].opening;
+      
        
     });
+
+    parkInfoDom(parkComponent(descr, loc, name, closing, opening));
 });
