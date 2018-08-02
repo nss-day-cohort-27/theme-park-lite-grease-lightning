@@ -11,9 +11,17 @@ div.container-fluid {
 }
 
 /* style welcome area here */
+#welcome {
+    background-image: url(../img/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid black;
+}
 div.welcomeCard {
+    
+    background: rgba(76, 215, 233, 0.6);
     text-align: center;
-    background-color: skyblue;
+    /* background-color: skyblue; */
     padding: 1em;
     border: 1px solid black;
     border-bottom: 0px;
@@ -23,7 +31,8 @@ div.welcomeCard p {
 }
 
 div.welcomeCard h1 {
-    text-shadow: 1px 1px #fff;
+    text-shadow: 1px 1px #000;
     font-family: verdana;
     font-size: 5em;
+    color: yellow;
 }
