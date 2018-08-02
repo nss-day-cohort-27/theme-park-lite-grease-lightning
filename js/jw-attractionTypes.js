@@ -11,6 +11,6 @@ db.fetchTypes()
    attractionTypes = result;
    
    displayTypes(attractionTypes);
-}) 
+}); 
 
 module.exports = attractionTypes;
