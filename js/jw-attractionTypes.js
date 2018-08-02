@@ -12,13 +12,9 @@ db.fetchTypes()
    displayTypes(attractionTypes);
 });
 
-// $('#jw-type')
-
-// querySelector('#jw-type").innerhtml    
 
 module.exports = attractionTypes;
 
 
-////////////////
 
 

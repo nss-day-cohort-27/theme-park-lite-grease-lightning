@@ -12,5 +12,4 @@ function displayTypes (type){
 };
 
 module.exports = displayTypes;
-l
 
